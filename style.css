@@ -262,7 +262,9 @@ body {
 /*#######################*/
   
 @media (min-width: 421px) and (max-width: 480px) {
-  
+	body {
+	background-color: white;
+	}
    /*### HEADER ###*/
   .head {
   	max-width: 100%;
