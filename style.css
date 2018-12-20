@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:300,400');
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: 'Sarabun', sans-serif;
-
+  text-rendering: optimizeLegibility;
+  background-color: #e0e0e0;
 }
 
 body {
+  
 	margin: 0;
 	padding: 0;
 }
@@ -16,9 +20,12 @@ body {
 
 
 @media (min-width: 320px) and (max-width: 379px) {
-
+  body {
+    background-color: white;
+  }
  /*### HEADER ###*/
   .head {
+    background-color: white;
   	max-width: 100%;
   	margin: 0 auto;
   	padding: 0;
@@ -27,7 +34,6 @@ body {
   }
   .logo {
   	width: 100%;
-	/* ????? */	
 	text-align: center;
   }
   .logo img {
@@ -38,11 +44,12 @@ body {
   	width: 100%;
   	display: flex;
   	align-items: center;
+    justify-content: flex-end;
   }
   .info_item {
   	width: 33.33%;
   	display: flex;
-  	justify-content: center;
+  	justify-content: flex-end;
   }
   .info_item img {
   display: none;
@@ -54,12 +61,20 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 1px;
-  font-size: 0.8em;
+  font-size: 0.7em;
+}
+.three{
+  width: 28%;
+  margin-right: 2%;
 }
 .hupper {
-  max-width: 90%;
-  margin: 0 3%;
+  max-width: 100%;
+  margin: 0 2%;
   margin-top: 2%;
+}
+.hlower {
+  max-width: 100;
+  margin: 0;
 }
 
 /*### MAIN ###*/
@@ -84,6 +99,7 @@ body {
   .eli img {
   	max-height: 250px;
   	width: auto;
+    padding-top: 5%;
   }
 
 /*### REF ###*/
@@ -125,8 +141,11 @@ body {
 /*#######################*/
   
 @media (min-width: 380px) and (max-width: 420px) {
-  
+  body {
+    background-color: white;
+  }
    /*### HEADER ###*/
+  
   .head {
   	max-width: 100%;
   	margin: 0 auto;
@@ -136,7 +155,6 @@ body {
   }
   .logo {
   	width: 100%;
-	/* ????? */	
 	text-align: center;
   }
   .logo img {
@@ -147,12 +165,15 @@ body {
   	width: 100%;
   	display: flex;
   	align-items: center;
+    justify-content: flex-end;
+
   }
   .info_item {
   	width: 33.33%;
   	display: flex;
   	align-items: center;
   	justify-content: flex-end;
+    margin-right: 1%;
   }
   .info_item img {
   
@@ -164,11 +185,26 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 1px;
-  font-size: 0.8em;
+  font-size: 0.7em;
+}
+.two {
+  justify-content: center;
+  width: 30%;
 }
   .three {
-  justify-content: center;
+  text-align: right;
+  padding-right: 5px;
+  width: 30%;
 }
+  .hupper {
+    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .hlower {
+    max-width: 100%;
+    margin-left: 0;
+  }
 
 
 /*### MAIN ###*/
@@ -203,15 +239,7 @@ body {
   display: flex;
   flex-flow: column;
   }
-  .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
-  }
-  .refuvod {
-  max-width: 100%;
-  font-size: 0.98em;
-  text-align: left;
-  }
+
   .reflista ul {
   margin-left: 3%;
   padding-left: 3%;	
@@ -244,8 +272,7 @@ body {
  	flex-flow: column;
   }
   .logo {
-  	width: 100%;
-	/* ????? */	
+  width: 100%;
 	text-align: center;
   }
   .logo img {
@@ -255,7 +282,7 @@ body {
   .info {
   	width: 100%;
   	display: flex;
-  	align-items: center;
+  	justify-content: flex-end;
   }
   .info_item {
   	width: 33.33%;
@@ -265,7 +292,7 @@ body {
   }
   .info_item img {
   
-  max-width: 15%;
+  max-width: 12%;
   height: auto
   }
   .info_item ul {
@@ -273,12 +300,21 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 1px;
-  font-size: 1em;
+  font-size: 0.8em;
 }
   .three {
   justify-content: center;
+  width: 30%;
 }
-
+.hupper {
+  max-width: 100%;
+  margin: 0 2%;
+  margin-top: 1%;
+}
+.hlower {
+  max-width: 100%;
+  margin-left: 0;
+}
 
 /*### MAIN ###*/
   .main {
@@ -302,6 +338,7 @@ body {
   .eli img {
   	max-height: 350px;
   	width: auto;
+    padding-top: 2%;
   }
 
 /*### REF ###*/
@@ -311,15 +348,6 @@ body {
   padding: 1% 3%;
   display: flex;
   flex-flow: column;
-  }
-  .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
-  }
-  .refuvod {
-  max-width: 100%;
-  font-size: 1em;
-  text-align: left;
   }
   .reflista ul {
   margin-left: 3%;
@@ -344,7 +372,10 @@ body {
 /*#######################*/
   
 @media (min-width: 481px) and (max-width: 575px) {
-  
+  body {
+    background-color: white;
+  }
+
    /*### HEADER ###*/
   .head {
   	max-width: 100%;
@@ -365,7 +396,7 @@ body {
   .info {
   	width: 100%;
   	display: flex;
-  	align-items: center;
+  	justify-content: flex-end;
   }
   .info_item {
   	width: 33.33%;
@@ -375,7 +406,7 @@ body {
   }
   .info_item img {
   
-  max-width: 15%;
+  max-width: 12%;
   height: auto
   }
   .info_item ul {
@@ -383,9 +414,10 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 1px;
-  font-size: 1em;
+  font-size: 0.9em;
 }
   .three {
+    width: 30%;
   justify-content: center;
 }
 .hupper {
@@ -393,6 +425,10 @@ body {
   margin: 0 2%;
   margin-top: 1%;
 }
+  .hlower {
+    max-width: 100%;
+    margin-left: 0;
+  }
 
 
 /*### MAIN ###*/
@@ -431,15 +467,6 @@ body {
   display: flex;
   flex-flow: column;
   }
-  .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
-  }
-  .refuvod {
-  max-width: 100%;
-  font-size: 1.2em;
-  text-align: left;
-  }
   .reflista ul {
   margin-left: 3%;
   padding-left: 3%;
@@ -465,17 +492,20 @@ body {
 /*#######################*/
   
 @media (min-width: 576px) and (max-width: 768px) {
-  
+  body {
+    background-color: white;
+  }
    /*### HEADER ###*/
   .head {
   	max-width: 100%;
   	margin: 0 auto;
   	padding: 0;
  	display: flex;
+  justify-content: space-between;
   }
   .logo {
   	width: 20%;
-  	margin-left: 3%;
+  	margin-left: 2%;
 	text-align: center;
   }
   .logo img {
@@ -484,7 +514,7 @@ body {
     padding-top: 15%;
   }
   .info {
-  	width: 80%;
+  	width: 70%;
   	display: flex;
   	align-items: center;
   }
@@ -497,7 +527,7 @@ body {
   }
   .info_item img {
   
-  max-width: 15%;
+  max-width: 10%;
   height: auto
   }
   .info_item ul {
@@ -505,16 +535,21 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 5px;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
   .three {
   justify-content: center;
+  margin-right: 3%;
 }
 .hupper {
   max-width: 100%;
   margin: 0 3%;
   margin-top: 1%;
 }
+  .hlower {
+    max-width: 100%;
+    margin-left: 0;
+  }
 
 
 /*### MAIN ###*/
@@ -526,13 +561,13 @@ body {
   justify-content: space-between;  	
   }
   .tekst {
-  max-width: 70%;
+  max-width: 65%;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1em;
   }
   .tekst p {
-   text-indent: 20px;
-   line-height: 1.2;
+   text-indent: 10px;
+   line-height: 1.6;
   }
   span {
   color: #7A9D02; 
@@ -545,7 +580,7 @@ body {
   .eli img {
   	max-height: 400px;
   	width: auto;
-
+    padding-right: 15px;
   }
 
 /*### REF ###*/
@@ -553,15 +588,6 @@ body {
   max-width: 100%;
   margin: 0;
   padding: 1% 3%;
-  }
-  .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
-  }
-  .refuvod {
-  max-width: 100%;
-  font-size: 1.2em;
-  text-align: left;
   }
   .reflista {
   	width: 100%;
@@ -602,12 +628,18 @@ body {
   
 @media (min-width: 768px) and (max-width: 991px) {
   
-   /*### HEADER ###*/
+  body {
+    background-color: white;
+  }
+
+
+   /*### HEADER ###*/  
   .head {
   	max-width: 100%;
   	margin: 0 auto;
   	padding: 0;
  	display: flex;
+  justify-content: space-between;
   }
   .logo {
   	width: 20%;
@@ -615,14 +647,15 @@ body {
 	text-align: center;
   }
   .logo img {
-    padding-top: 15%;
+    padding-top: 8%;
   	max-width: 100%;
   	height: auto;
   }
   .info {
-  	width: 70%;
+  	width: 55%;
   	display: flex;
-  	align-items: center;
+  	align-items: flex-end;
+
   }
   .info_item {
   	width: 33.33%;
@@ -641,16 +674,22 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 5px;
-  font-size: 1em;
+  font-size: 0.8em;
+
 }
   .three {
   justify-content: center;
+  margin-right: 3%;
 }
 .hupper {
   max-width: 100%;
   margin: 0 3%;
   margin-top: 2%;
 }
+.hlower {
+  max-width: 100%;
+  margin-left: 0;
+  }
 
 
 /*### MAIN ###*/
@@ -664,11 +703,11 @@ body {
   .tekst {
   max-width: 64%;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1em;
   }
   .tekst p {
-   text-indent: 20px;
-   line-height: 1.3;
+   text-indent: 10px;
+   line-height: 1.6;
   }
   span {
   color: #7A9D02; 
@@ -679,9 +718,9 @@ body {
   	align-items: center;
   }
   .eli img {
-  	max-height: 600px;
+  	max-height: 500px;
   	width: auto;
-	margin-left: 15%;
+	margin-left: 45%;
   }
 
 /*### REF ###*/
@@ -691,15 +730,7 @@ body {
   z-index: 2;
   padding: 1% 3%;
   }
-  .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
-  }
-  .refuvod {
-  max-width: 100%;
-  font-size: 1.2em;
-  text-align: left;
-  }
+
   .reflista {
   	width: 100%;
   	display: flex;
@@ -707,7 +738,7 @@ body {
   }
   .reflista ul {
   margin-left: 2%;
-  font-size: 1.2em;
+  font-size: 1em;
   display: inline-block;	
   }
   .reflevo {
@@ -739,10 +770,17 @@ body {
 /*#######################*/
   
 @media (min-width: 992px) and (max-width: 1199px) {
+
+  body {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+  }
   
    /*### HEADER ###*/
   .head {
-  	max-width: 70%;
+  	max-width: 100%;
   	margin: 0 auto;
   	padding: 0;
  	display: flex;
@@ -768,11 +806,10 @@ body {
   	display: flex;
   	align-items: center;
   	justify-content: flex-end;
-  	font-size: 1em;
+
     padding-top: 1%;
   }
-  .info_item img {
-  
+  .info_item img {  
   max-width: 15%;
   height: auto
   }
@@ -781,20 +818,23 @@ body {
   text-align: right;
   list-style: none;
   padding-left: 5px;
-  font-size: 1em;
+  font-size: 0.9em;
 }
   .three {
   justify-content: center;
 }
 .hupper {
-  max-width: 66%;
+  max-width: 100%;
+  margin: 0 3%;
   margin-top: 1%;
 }
-
+  .hlower {
+    max-width: 100%;
+  }
 
 /*### MAIN ###*/
   .main {
-  max-width: 70%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 3%;
   padding-top: 2%;
@@ -802,12 +842,13 @@ body {
   	
   }
   .tekst {
-  max-width: 64%;
+  max-width: 60%;
   text-align: left;
   font-size: 1.1em;
+  align-items: flex-start;
   }
   .tekst p {
-   text-indent: 30px;
+   text-indent: 10px;
    line-height: 1.4;
   }
   span {
@@ -815,24 +856,20 @@ body {
   }
   .eli {
   	max-width: 36%;
- 	margin-top: 3%;
+ 	margin-top: 5%;
   	align-items: center;
   }
   .eli img {
-  	max-height: 600px;
+  	max-height: 500px;
   	width: auto;
-	margin-left: 15%;
+	margin-left: 35%;
   }
 
 /*### REF ###*/
   .ref {	
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0;
-  }
-  .hlower {
-  	max-width: 50%;
-  	margin-left: 10%;
   }
   .refuvod {
   max-width: 100%;
@@ -851,18 +888,19 @@ body {
   display: inline-block;	
   }
   .reflevo {
-  width: 40%;
-  padding-left: 8%;
+  width: 45%;
+  padding-left: 3%;
   }
   .reflistadesno {
   width: 50%;
+  padding-left: 2%;
   }
 
 /*### FOOTER ###*/
   .foot {
   display: flex;
   flex-flow: column;
-  max-width: 70%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1% 3%;	
   }
@@ -879,25 +917,33 @@ body {
 @media screen and (min-width: 1199px) {
   
    /*### HEADER ###*/
+  body {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+  }
+
   .head {
-    max-width: 70%;
+    background-color: white;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
   display: flex;
   justify-content: space-between;
   }
   .logo {
-    width: 20%;
-    margin-left: 3%;
+    width: 20.5%;
+    margin-left: 2%;
   text-align: center;
   }
   .logo img {
-    margin-top: 15%;
+    margin-top: 6%;
     max-width: 100%;
     height: auto;
   }
   .info {
-    width: 70%;
+    width: 60%;
     display: flex;
     align-items: center;
   }
@@ -906,11 +952,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 1em;
     padding-top: 3%;
   }
-  .info_item img {
-  
+  .info_item img {  
   max-width: 15%;
   height: auto
   }
@@ -922,65 +966,65 @@ body {
   font-size: 1em;
 }
   .three {
-  justify-content: center;
+  margin-right: 2%;
+  width: 28%;
 }
 .hupper {
-  max-width: 66%;
-  margin-top: 1.5%;
+  max-width: 100%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.hlower {
+max-width: 100%;
+margin-top: 5%;
 }
 
 
 /*### MAIN ###*/
+  
+  
   .main {
-  max-width: 70%;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 3%;
-  padding-top: 2%;
+  padding: 0 2%;
+  padding-top: 0.5%;
   display: flex;
     
   }
   .tekst {
-  max-width: 64%;
+  max-width: 62%;
   text-align: left;
   font-size: 1.1em;
   }
   .tekst p {
-   text-indent: 30px;
-   line-height: 1.4;
+   text-indent: 10px;
+   line-height: 1.6;
   }
   span {
   color: #7A9D02; 
   }
   .eli {
-    max-width: 36%;
-  margin-top: 3%;
-    align-items: center;
+  margin-top: 2%;
+  align-items: center;
   }
   .eli img {
-    max-height: 600px;
-    width: auto;
-  margin-left: 15%;
+  max-height: 550px;
+  width: auto;
+  margin-left: 40%;
   }
 
 /*### REF ###*/
   .ref {  
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
+
   padding: 0;
   }
-  .hlower {
-    max-width: 50%;
-    margin-left: 10%;
-  }
-  .refuvod {
-  max-width: 100%;
-  font-size: 1em;
-  text-align: left;
-  }
   .reflista {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+
   }
   .reflista ul {
   margin-left: 1%;
@@ -990,17 +1034,18 @@ body {
   }
   .reflevo {
   width: 40%;
-  padding-left: 8%;
+  padding-left: 4%;
   }
   .reflistadesno {
-  width: 50%;
+  padding-left: 1%;
+  width: 60%;
   }
 
 /*### FOOTER ###*/
   .foot {
   display: flex;
   flex-flow: column;
-  max-width: 70%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1% 3%; 
   }
