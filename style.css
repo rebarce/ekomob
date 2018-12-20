@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:300,400');
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: 'Sarabun', sans-serif;
+
 }
 
 body {
@@ -354,8 +357,8 @@ body {
   }
   .logo {
   	width: 100%;
-	/* ????? */	
 	text-align: center;
+  margin-top: 2%;
   }
   .logo img {
   	max-width: 100%;
@@ -386,6 +389,11 @@ body {
 }
   .three {
   justify-content: center;
+}
+.hupper {
+  max-width: 100%;
+  margin: 0 2%;
+  margin-top: 1%;
 }
 
 
@@ -468,7 +476,7 @@ body {
  	display: flex;
   }
   .logo {
-  	margin-top: 2%;
+  	margin-top: 3%;
   	width: 20%;
   	margin-left: 3%;
 	text-align: center;
@@ -481,6 +489,7 @@ body {
   	width: 80%;
   	display: flex;
   	align-items: center;
+    margin-top: 1%;
   }
   .info_item {
   	width: 33.33%;
@@ -503,9 +512,10 @@ body {
   .three {
   justify-content: center;
 }
-.hline {
-  max-width: 90%;
-  margin: 0 5%;
+.hupper {
+  max-width: 100%;
+  margin: 0 3%;
+  margin-top: 1%;
 }
 
 
@@ -615,6 +625,7 @@ body {
   	width: 70%;
   	display: flex;
   	align-items: center;
+    margin-top: 1.5%;
   }
   .info_item {
   	width: 33.33%;
@@ -640,6 +651,7 @@ body {
 .hupper {
   max-width: 100%;
   margin: 0 3%;
+  margin-top: 2%;
 }
 
 
@@ -655,7 +667,6 @@ body {
   max-width: 64%;
   text-align: left;
   font-size: 1.2em;
-  margin-bottom: -10%;
   }
   .tekst p {
    text-indent: 20px;
@@ -726,13 +737,14 @@ body {
 }
 
 
+
 /*#######################*/
   
 @media (min-width: 992px) and (max-width: 1199px) {
   
    /*### HEADER ###*/
   .head {
-  	max-width: 100%;
+  	max-width: 70%;
   	margin: 0 auto;
   	padding: 0;
  	display: flex;
@@ -749,7 +761,7 @@ body {
   	height: auto;
   }
   .info {
-  	width: 60%;
+  	width: 70%;
   	display: flex;
   	align-items: center;
   }
@@ -758,11 +770,11 @@ body {
   	display: flex;
   	align-items: center;
   	justify-content: flex-end;
-  	font-size: 1.1em;
+  	font-size: 1em;
   }
   .info_item img {
   
-  max-width: 20%;
+  max-width: 15%;
   height: auto
   }
   .info_item ul {
@@ -776,16 +788,15 @@ body {
   justify-content: center;
 }
 .hupper {
-  max-width: 100%;
-  margin: 0 3%;
-  margin-top: 2%;
+  max-width: 66%;
+  margin-top: 1%;
 }
 
 
 /*### MAIN ###*/
   .main {
-  max-width: 100%;
-  margin: 0;
+  max-width: 70%;
+  margin: 0 auto;
   padding: 0 3%;
   padding-top: 2%;
   display: flex;
@@ -794,8 +805,7 @@ body {
   .tekst {
   max-width: 64%;
   text-align: left;
-  font-size: 1.2em;
-  margin-bottom: -10%;
+  font-size: 1.1em;
   }
   .tekst p {
    text-indent: 30px;
@@ -817,18 +827,17 @@ body {
 
 /*### REF ###*/
   .ref {	
-  max-width: 100%;
-  margin: 0;
-  z-index: 2;
-  padding: 1% 3%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0;
   }
   .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
+  	max-width: 50%;
+  	margin-left: 10%;
   }
   .refuvod {
   max-width: 100%;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: left;
   }
   .reflista {
@@ -837,25 +846,25 @@ body {
   	justify-content: center;
   }
   .reflista ul {
-  margin-left: 2%;
-  font-size: 1.3em;
+  margin-left: 1%;
+  font-size: 1.1em;
+  font-weight: 300;
   display: inline-block;	
   }
   .reflevo {
   width: 40%;
-  padding-left: 1%;
+  padding-left: 8%;
   }
   .reflistadesno {
-  width: 60%;
-  margin-left: 1%;
+  width: 50%;
   }
 
 /*### FOOTER ###*/
   .foot {
   display: flex;
   flex-flow: column;
-  max-width: 100%;
-  margin: 0;
+  max-width: 70%;
+  margin: 0 auto;
   padding: 1% 3%;	
   }
   .foot img {
@@ -866,42 +875,43 @@ body {
 }
 
 
-/*############*/
-@media (min-width: 992px) {
+/*#######################*/
   
-     /*### HEADER ###*/
+@media screen and (min-width: 1199px) {
+  
+   /*### HEADER ###*/
   .head {
-  	max-width: 100%;
-  	margin: 0 auto;
-  	padding: 0;
- 	display: flex;
- 	justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0;
+  display: flex;
+  justify-content: space-between;
   }
   .logo {
-  	margin-top: 2%;
-  	width: 30%;
-  	margin-left: 3%;
-	text-align: center;
+    margin-top: 2%;
+    width: 30%;
+    margin-left: 3%;
+  text-align: center;
   }
   .logo img {
-  	max-width: 100%;
-  	height: auto;
+    max-width: 100%;
+    height: auto;
   }
   .info {
-  	width: 60%;
-  	display: flex;
-  	align-items: center;
+    width: 70%;
+    display: flex;
+    align-items: center;
   }
   .info_item {
-  	width: 33.33%;
-  	display: flex;
-  	align-items: center;
-  	justify-content: flex-end;
-  	font-size: 1.1em;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1em;
   }
   .info_item img {
   
-  max-width: 20%;
+  max-width: 15%;
   height: auto
   }
   .info_item ul {
@@ -915,26 +925,24 @@ body {
   justify-content: center;
 }
 .hupper {
-  max-width: 100%;
-  margin: 0 3%;
-  margin-top: 2%;
+  max-width: 66%;
+  margin-top: 1.5%;
 }
 
 
 /*### MAIN ###*/
   .main {
-  max-width: 100%;
-  margin: 0;
+  max-width: 70%;
+  margin: 0 auto;
   padding: 0 3%;
   padding-top: 2%;
   display: flex;
-  	
+    
   }
   .tekst {
   max-width: 64%;
   text-align: left;
-  font-size: 1.2em;
-  margin-bottom: -10%;
+  font-size: 1.1em;
   }
   .tekst p {
    text-indent: 30px;
@@ -944,67 +952,63 @@ body {
   color: #7A9D02; 
   }
   .eli {
-  	max-width: 36%;
- 	margin-top: 3%;
-  	align-items: center;
+    max-width: 36%;
+  margin-top: 3%;
+    align-items: center;
   }
   .eli img {
-  	max-height: 600px;
-  	width: auto;
-	margin-left: 15%;
+    max-height: 600px;
+    width: auto;
+  margin-left: 15%;
   }
 
 /*### REF ###*/
-  .ref {	
-  max-width: 100%;
-  margin: 0;
-  z-index: 2;
-  padding: 1% 3%;
+  .ref {  
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0;
   }
   .hlower {
-  	max-width: 60%;
-  	margin-left: 0;
+    max-width: 50%;
+    margin-left: 10%;
   }
   .refuvod {
   max-width: 100%;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: left;
   }
   .reflista {
-  	width: 100%;
-  	display: flex;
-  	justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .reflista ul {
-  margin-left: 2%;
-  font-size: 1.3em;
-  display: inline-block;	
+  margin-left: 1%;
+  font-size: 1.1em;
+  font-weight: 300;
+  display: inline-block;  
   }
   .reflevo {
   width: 40%;
-  padding-left: 1%;
+  padding-left: 8%;
   }
   .reflistadesno {
-  width: 60%;
-  margin-left: 1%;
+  width: 50%;
   }
 
 /*### FOOTER ###*/
   .foot {
   display: flex;
   flex-flow: column;
-  max-width: 100%;
-  margin: 0;
-  padding: 1% 3%;	
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 1% 3%; 
   }
   .foot img {
   width: 100%;
   height: auto;
   }
-	
-
-
-
-
-
+  
 }
+
+
