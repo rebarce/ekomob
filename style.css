@@ -901,6 +901,7 @@ body {
     width: 70%;
     display: flex;
     align-items: center;
+    margin-top: 2%;
   }
   .info_item {
     width: 33.33%;
